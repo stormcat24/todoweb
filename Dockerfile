@@ -1,7 +1,7 @@
 FROM node:9.2.0
 
 WORKDIR /todoweb
-ADD . /todoweb
+COPY . /todoweb
 
 RUN npm install -g vue-cli
 RUN npm install
